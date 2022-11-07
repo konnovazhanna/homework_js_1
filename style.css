@@ -2,12 +2,14 @@ body {
     margin: 0;
 }
 
+
+
 .container {
     margin: auto;
     width: 1170px;
 }
 
-.practice {
-    height: 200px;
+.list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
-
